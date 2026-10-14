@@ -1,0 +1,102 @@
+{
+  "case": "caseB",
+  "samples": [
+    {
+      "frame": 1,
+      "tilt_handle_deg": 1.5,
+      "crown_z_m": 0.39979,
+      "tilt_cyl_deg": [
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "frame": 20,
+      "tilt_handle_deg": 0.125,
+      "crown_z_m": 0.40031,
+      "tilt_cyl_deg": [
+        1.263,
+        1.263
+      ]
+    },
+    {
+      "frame": 40,
+      "tilt_handle_deg": 0.152,
+      "crown_z_m": 0.40031,
+      "tilt_cyl_deg": [
+        1.263,
+        1.263
+      ]
+    },
+    {
+      "frame": 60,
+      "tilt_handle_deg": 0.203,
+      "crown_z_m": 0.40031,
+      "tilt_cyl_deg": [
+        1.263,
+        1.263
+      ]
+    },
+    {
+      "frame": 90,
+      "tilt_handle_deg": 0.307,
+      "crown_z_m": 0.40031,
+      "tilt_cyl_deg": [
+        1.263,
+        1.263
+      ]
+    },
+    {
+      "frame": 120,
+      "tilt_handle_deg": 0.464,
+      "crown_z_m": 0.4003,
+      "tilt_cyl_deg": [
+        1.263,
+        1.263
+      ]
+    },
+    {
+      "frame": 180,
+      "tilt_handle_deg": 0.768,
+      "crown_z_m": 0.40029,
+      "tilt_cyl_deg": [
+        1.263,
+        1.263
+      ]
+    }
+  ],
+  "tilt_deg": 0.768,
+  "cyl_tilt_deg": 1.263,
+  "height_initial_m": 0.39979,
+  "height_final_m": 0.40029,
+  "height_loss": -0.0012506565947122252,
+  "pass": true,
+  "criteria": "tilt < 8° e perda de altura < 8% e cilindros < 8°, no último quadro",
+  "stiffness": {
+    "mapping": "k_Nm_per_rad = E*I/L  →  rigid_body_constraint.spring_stiffness_ang_z (SPRING2)",
+    "calibration": "Barra de 0,20 m, 0,10 kg, θ0=8°: k=0,2 assentou em 15,47° (teoria 15,52°); k=2,0 em 8,41° (teoria 8,41°).",
+    "imperfection_deg": 1.5,
+    "model": "Couro como ossatura. Berço: 4 nervuras. Alça: canal de duas paredes de 2,2 mm afastadas 12 mm (o sanduíche plano de 4,4 mm não segurou). Cilindro: aro + 2 nervuras.",
+    "rib_b_m": 0.016,
+    "handle_channel_gap_m": 0.012,
+    "I_frame_m4": 2.4837120000000006e-07,
+    "I_handle_m4": 1.4415720000000002e-08,
+    "I_cyl_m4": 3.4475795590305197e-07,
+    "k_body": 413.9520000000001,
+    "k_handle": 15.401410256410259,
+    "k_cyl": 68.9515911806104,
+    "leather_added": [
+      "base/plinto 2,2 mm",
+      "4 nervuras verticais 16×2,2 mm nos cantos do berço",
+      "pisos de couro nos cilindros",
+      "aros superiores de couro (12 mm de altura)",
+      "sanduíche plano 2×2,2 mm — insuficiente, alça foi a 39°",
+      "canal de couro na alça: 2 paredes 90×2,2 mm afastadas 12 mm",
+      "2 nervuras verticais 10×2,2 mm em cada cilindro",
+      "debrum de couro na borda do painel"
+    ],
+    "D_montana_Nm": 0.003961309523809524,
+    "D_leather_Nm": 0.26408730158730165
+  },
+  "bake_op": "{'FINISHED'}"
+}

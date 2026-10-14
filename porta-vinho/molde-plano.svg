@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100mm" height="1221mm" viewBox="0 0 1100 1221">
+<rect width="100%" height="100%" fill="#f6f1e7"/>
+<style>text{font-family:DejaVu Sans,sans-serif;fill:#3a2414}.cut{fill:none;stroke:#8a3b12;stroke-width:0.6}.sew{fill:none;stroke:#c4a574;stroke-width:0.35;stroke-dasharray:2 1.4}.lbl{font-size:5px}.sub{font-size:3.4px;fill:#6b4a2a}</style>
+<text x="20" y="18" font-size="7">Molde porta-vinho/taças — montana perfurado + couro rígido</text>
+<text x="20" y="28" class="sub">Linha cheia = corte. Tracejado = pesponto (3 mm). Margem de costura 8 mm. Medidas em mm. Estimativa de modelagem, não molde de produção certificado.</text>
+<polyline class="cut" points="30,40 30,406.0 31.16,414.8 34.56,423.0 39.96,430.04 47.0,435.44 55.2,438.84 64.0,440.0 116.0,440.0 124.8,438.84 133.0,435.44 140.04,430.04 145.44,423.0 148.84,414.8 150.0,406.0 150.0,40 30,40"/>
+<polyline class="sew" points="38.0,48.0 38.0,406.0 38.89,412.73 41.48,419.0 45.62,424.38 51.0,428.52 57.27,431.11 64.0,432.0 116.0,432.0 122.73,431.11 129.0,428.52 134.38,424.38 138.52,419.0 141.11,412.73 142.0,406.0 142.0,48.0 38.0,48.0"/>
+<rect class="cut" x="55.0" y="98.0" width="70.0" height="32.0"/>
+<text class="lbl" x="30" y="36">1 · Painel frontal (alça + corpo) — 1×</text>
+<text class="sub" x="30" y="446.0">104.0 × 384.0 mm no pesponto · fenda 70.0×32.0 · montana perfurado</text>
+<rect class="cut" x="174.0" y="40" width="96.0" height="166.0"/>
+<rect class="sew" x="182.0" y="48.0" width="80.0" height="150.0"/>
+<text class="lbl" x="174.0" y="37">2 · Painel traseiro do berço — 1×</text>
+<text class="sub" x="174.0" y="212.0">80.0 × 150.0 mm · montana perfurado</text>
+<rect class="cut" x="294.0" y="40" width="100.0" height="166.0"/>
+<rect class="sew" x="302.0" y="48.0" width="84.0" height="150.0"/>
+<text class="lbl" x="294.0" y="37">3 · Lateral do berço — 2×</text>
+<text class="sub" x="294.0" y="212.0">84.0 × 150.0 mm · montana perfurado</text>
+<rect class="cut" x="30" y="468.0" width="283.04" height="166.0"/>
+<rect class="sew" x="38.0" y="476.0" width="267.04" height="150.0"/>
+<text class="lbl" x="30" y="465.0">4 · Cilindro desenvolvido — 2×</text>
+<text class="sub" x="30" y="640.0">267.04 × 150.0 mm (π × Ø 85.0) · montana perfurado</text>
+<rect class="cut" x="337.04" y="468.0" width="308.0" height="115.0"/>
+<rect class="sew" x="345.04" y="476.0" width="292.0" height="99.0"/>
+<text class="lbl" x="337.04" y="465.0">5 · Base / plinto — 1×</text>
+<text class="sub" x="337.04" y="589.0">292.0 × 99.0 mm · esp. 2,2 mm · couro rígido</text>
+<circle class="cut" cx="80.5" cy="712.5" r="50.5"/>
+<circle class="sew" cx="80.5" cy="712.5" r="42.5"/>
+<text class="lbl" x="30" y="658.0">6 · Piso do cilindro — 2×</text>
+<text class="sub" x="30" y="771.0">Ø 85.0 mm · couro rígido</text>
+<rect class="cut" x="161.0" y="662.0" width="283.04" height="28.0"/>
+<rect class="sew" x="169.0" y="670.0" width="267.04" height="12"/>
+<text class="lbl" x="161.0" y="659.0">7 · Aro superior — 2×</text>
+<text class="sub" x="161.0" y="696.0">faixa 12 mm de altura · couro rígido · couro rígido</text>
+<rect class="cut" x="464.04" y="662.0" width="32.0" height="166.0"/>
+<rect class="sew" x="472.04" y="670.0" width="16" height="150.0"/>
+<text class="lbl" x="464.04" y="659.0">8 · Nervura do berço — 4×</text>
+<text class="sub" x="464.04" y="834.0">16 × altura do berço · couro 2,2 mm · couro rígido</text>
+<rect class="cut" x="30" y="787.0" width="106.0" height="250.0"/>
+<rect class="sew" x="38.0" y="795.0" width="90" height="234.0"/>
+<text class="lbl" x="30" y="784.0">9 · Parede do canal da alça — 2×</text>
+<text class="sub" x="30" y="1043.0">90 mm × altura da alça, afastadas 12 mm · couro 2,2 mm · couro rígido</text>
+<rect class="cut" x="156.0" y="787.0" width="26.0" height="166.0"/>
+<rect class="sew" x="164.0" y="795.0" width="10" height="150.0"/>
+<text class="lbl" x="156.0" y="784.0">10 · Nervura do cilindro — 4×</text>
+<text class="sub" x="156.0" y="959.0">10 mm · couro 2,2 mm · couro rígido</text>
+</svg>
