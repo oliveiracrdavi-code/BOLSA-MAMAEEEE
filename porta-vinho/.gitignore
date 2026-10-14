@@ -1,0 +1,6 @@
+__pycache__/
+*.blend1
+*.pyc
+sim_error.txt
+*.log
+fall_test.txt

@@ -1,0 +1,90 @@
+{
+  "case": "caseA",
+  "samples": [
+    {
+      "frame": 1,
+      "tilt_handle_deg": 1.5,
+      "crown_z_m": 0.39979,
+      "tilt_cyl_deg": [
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "frame": 20,
+      "tilt_handle_deg": 14.115,
+      "crown_z_m": 0.3794,
+      "tilt_cyl_deg": [
+        95.527,
+        95.527
+      ]
+    },
+    {
+      "frame": 40,
+      "tilt_handle_deg": 89.998,
+      "crown_z_m": 0.00206,
+      "tilt_cyl_deg": [
+        95.527,
+        95.527
+      ]
+    },
+    {
+      "frame": 60,
+      "tilt_handle_deg": 89.998,
+      "crown_z_m": 0.00206,
+      "tilt_cyl_deg": [
+        95.527,
+        95.527
+      ]
+    },
+    {
+      "frame": 90,
+      "tilt_handle_deg": 89.998,
+      "crown_z_m": 0.00206,
+      "tilt_cyl_deg": [
+        95.527,
+        95.527
+      ]
+    },
+    {
+      "frame": 120,
+      "tilt_handle_deg": 89.998,
+      "crown_z_m": 0.00206,
+      "tilt_cyl_deg": [
+        95.527,
+        95.527
+      ]
+    },
+    {
+      "frame": 180,
+      "tilt_handle_deg": 89.998,
+      "crown_z_m": 0.00206,
+      "tilt_cyl_deg": [
+        95.527,
+        95.527
+      ]
+    }
+  ],
+  "tilt_deg": 89.998,
+  "cyl_tilt_deg": 95.527,
+  "height_initial_m": 0.39979,
+  "height_final_m": 0.00206,
+  "height_loss": 0.9948472948297856,
+  "pass": false,
+  "criteria": "tilt < 8° e perda de altura < 8% e cilindros < 8°, no último quadro",
+  "stiffness": {
+    "mapping": "k_Nm_per_rad = E*I/L  →  rigid_body_constraint.spring_stiffness_ang_z (SPRING2)",
+    "calibration": "Barra de 0,20 m, 0,10 kg, θ0=8°: k=0,2 assentou em 15,47° (teoria 15,52°); k=2,0 em 8,41° (teoria 8,41°).",
+    "imperfection_deg": 1.5,
+    "model": "Somente montana perfurado. I = b t³/12 da chapa aberta. Seção tubular não creditada: sem aro ela ovaliza.",
+    "I_panel_m4": 1.1535333333333336e-11,
+    "I_cyl_m4": 4.436666666666668e-12,
+    "k_body": 0.002307066666666667,
+    "k_handle": 0.0014788888888888892,
+    "k_cyl": 0.0008873333333333336,
+    "leather_added": [],
+    "D_montana_Nm": 0.003961309523809524,
+    "D_leather_Nm": 0.26408730158730165
+  },
+  "bake_op": "{'FINISHED'}"
+}

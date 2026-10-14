@@ -1,0 +1,4 @@
+caseA tilt=90.00° perda=99.48% cilindro=95.53° pass=False
+caseB tilt=39.31° perda=12.96% cilindro=11.80° pass=False
+caseB tilt=3.74° perda=-0.15% cilindro=11.80° pass=False
+caseB tilt=0.77° perda=-0.13% cilindro=1.26° pass=True
